@@ -1,0 +1,18 @@
+# Tugas 2 PWPB XII RPL SMK Merdeka
+Tetap Santai, Walau Otak Terbantai👊
+
+<?php
+$kategori = 'Buah Keras';
+switch ($kategori)
+{
+  case 'Buah Keras' :
+    echo $kategori . ' adalah ','pir, ','salak<br/>';
+    break;
+  case 'Buah halus' :
+    echo $kategori . ' adalah ',' pisang ',' alpukat ',' strawberry ',' jeruk<br/>';
+    break;
+  case 'Buah tropis' :
+    echo $kategori . ' adalah ',' nangka ',' manggis ',' sirsak ',' lengkeng<br/>';
+    break;
+}
+?>
