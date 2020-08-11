@@ -2,17 +2,17 @@
 Tetap Santai, Walau Otak Terbantai👊
 
 <?php
-$kategori = 'Buah Keras';
+$kategori = 'Buah halus';
 switch ($kategori)
 {
   case 'Buah Keras' :
-    echo $kategori . ' adalah ','pir, ','salak<br/>';
+    echo $kategori . ' adalah ','pir, ','salak';
     break;
   case 'Buah halus' :
-    echo $kategori . ' adalah ',' pisang ',' alpukat ',' strawberry ',' jeruk<br/>';
+    echo $kategori . ' adalah ',' pisang, ',' alpukat, ',' strawberry, ',' jeruk';
     break;
   case 'Buah tropis' :
-    echo $kategori . ' adalah ',' nangka ',' manggis ',' sirsak ',' lengkeng<br/>';
+    echo $kategori . ' adalah ',' nangka, ',' manggis, ',' sirsak, ',' lengkeng';
     break;
 }
 ?>
