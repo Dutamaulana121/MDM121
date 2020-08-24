@@ -16,3 +16,17 @@ switch ($kategori)
     break;
 }
 ?>
+
+
+<?php 
+
+echo "<h1>AnjayWenjay</h1>";
+
+$data = array("Dodot", "Bodat", "Badot");
+
+for($x=0;$x<count($data);$x++){
+	echo $data[$x]."<br/>";
+
+}
+
+?>
